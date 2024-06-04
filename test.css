@@ -1,0 +1,45 @@
+* {
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  padding: 14px;
+  width: 100vw;
+}
+
+nav h2{
+  color: white;
+}
+
+h2 {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  background: orange;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
